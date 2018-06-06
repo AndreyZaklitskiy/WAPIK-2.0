@@ -1,9 +1,6 @@
 // bower components
 @import "bower_components/bootstrap-grid-sass/bootstrap-grid-sass.scss";
-@import "bower_components/css-hamburgers/dist/hamburgers.min.css";
-/*slick-slider*/
-@import "bower_components/slick-carousel/slick/slick.css";
-@import "bower_components/slick-carousel/slick/slick-theme.css";
+
 // modules & sections
 @import "modules/sprite";
 @import "functions";
@@ -22,9 +19,9 @@
 @import "sections/download-section";
 @import "sections/footer-section";
 /* Pages */
-@import "sections/aboutUs/aboutUs-section";
-@import "sections/prices/prices-section";
-@import "sections/contacts/contacts-section";
+@import "sections/aboutUs-section";
+@import "sections/prices-section";
+@import "sections/contacts-section";
 
 
 .browserupgrade {

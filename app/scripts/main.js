@@ -1,3 +1,4 @@
+/*slick-slider*/
 $(document).ready(function(){
   $('.team-slider').slick({
     infinite: true,
@@ -25,4 +26,11 @@ $(document).ready(function(){
       }
     ]
 });
+});
+/*adaptive-menu-button-script*/
+$(document).ready(function() {
+  $('.hamburger').click(function () {
+    $('.hamburger').toggleClass('is-active');
+    $('.hamburger-menu').toggleClass('visible');
+  });
 });

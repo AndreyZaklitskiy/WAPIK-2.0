@@ -7,9 +7,18 @@
   <title>Prices</title>
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-  <link rel="stylesheet" href="styles/main.css">
+  <!-- build:css styles/vendor.css -->
+  <!--hamburgers-->
+  <link rel="stylesheet" href="/bower_components/css-hamburgers/dist/hamburgers.min.css">
+  <!--slick-slider-->
+  <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick-theme.css">
+  <!--endbuild-->
 
-  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!--endbuild-->
+
 </head>
 <body>
 <button class="hamburger hamburger--elastic " type="button">
@@ -24,22 +33,22 @@
     </a>
   </li>
   <li class="">
-    <a href="#">
+    <a href="index.html">
       Home
     </a>
   </li>
   <li class="">
-    <a href="#">
+    <a href="index2.html">
       About Us
     </a>
   </li>
   <li class="">
-    <a href="#">
+    <a href="index3.html">
       pricing
     </a>
   </li>
   <li class="">
-    <a href="#">
+    <a href="index4.html">
       Contact Us
     </a>
   </li>
@@ -365,14 +374,22 @@
     </div>
   </div>
 </div>
+
+
+<!-- build:js scripts/vendor.js -->
+<script src="/bower_components/modernizr/modernizr.js"></script>
+<!-- endbuild -->
+
+<!--build:js scripts/plugin.js-->
 <!--jQuery-->
 <script src="/bower_components/jquery/dist/jquery.js"></script>
-<!--hamburger-->
-<script src="scripts/humburger.js"></script>
 <!--slick-slider-->
 <script src="/bower_components/slick-carousel/slick/slick.min.js"></script>
+<!--endbuild-->
 
+<!--build:js scripts/main.js-->
 <script src="scripts/main.js"></script>
-<!-- endbuild -->
+<!--endbuild-->
+
 </body>
 </html>
