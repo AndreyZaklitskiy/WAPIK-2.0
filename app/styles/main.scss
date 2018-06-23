@@ -154,6 +154,11 @@ p {
   opacity: 1;
   right: -0;
 }
+html.touch {
+  margin-top: 0;
+}
+
+
 @media (max-width: 768px) {
   .site-menu {
     display: none;
